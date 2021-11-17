@@ -1,9 +1,18 @@
 import React from 'react';
+import './cta.css';
 
 const Cta = () => {
     return (
-        <div>
-
+        <div className="gpt3__cta section__margin">
+            <div className="gpt3__cta-content">
+                <p>Request for Early Access to Get Start</p>
+                <h3>Register today & start exploring the endless possibilities.</h3>
+            </div>
+            <div className="gpt3__cta-button">
+                <button type="button">
+                    Get Started
+                </button>
+            </div>
         </div>
     );
 };
